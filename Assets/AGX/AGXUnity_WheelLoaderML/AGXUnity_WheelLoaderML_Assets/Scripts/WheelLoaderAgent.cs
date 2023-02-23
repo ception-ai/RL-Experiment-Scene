@@ -184,9 +184,8 @@ namespace ML.Scripts
 
             float steer = 0.2f * Math.Clamp(vectorAction[1], -1.0f, 1.0f);
             float throttle = Math.Clamp(vectorAction[0], 0.0f, 1.0f);
-            int d = CompletedEpisodes % 2 == 0 ? 1 : -1;
-            float elevate = Math.Clamp(d * 0.5f, -1.0f, 1.0f);
-            float tilt = Math.Clamp(d * 0.5f, -1.0f, 1.0f);
+            float elevate = Math.Clamp(vectorAction[2], -1.0f, 1.0f);
+            float tilt = Math.Clamp(vectorAction[3], -1.0f, 1.0f);
 
 
             // Update the control signals on the actuators. Important to do this before stepping!
