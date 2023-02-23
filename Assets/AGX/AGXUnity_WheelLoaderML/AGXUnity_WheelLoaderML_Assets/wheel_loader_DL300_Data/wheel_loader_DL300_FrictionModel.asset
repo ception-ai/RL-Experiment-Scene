@@ -1,0 +1,255 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8492306803957860725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7119a14bd67d1a84b9caafde286f8582, type: 3}
+  m_Name: FrictionModel_ContactMaterial_DoosanDL300FrontTireMaterial_DoosanDL300FrontTireMaterial
+  m_EditorClassIdentifier: 
+  m_solveType: 3
+  m_type: 0
+  m_normalForceMagnitude: 100
+  m_scaleNormalForceWithDepth: 0
+--- !u!114 &-8314067341635767702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7119a14bd67d1a84b9caafde286f8582, type: 3}
+  m_Name: FrictionModel_ContactMaterial_DoosanDL300RearTireMaterial_DoosanDL300RearTireMaterial
+  m_EditorClassIdentifier: 
+  m_solveType: 3
+  m_type: 0
+  m_normalForceMagnitude: 100
+  m_scaleNormalForceWithDepth: 0
+--- !u!114 &-6613128597525181799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7119a14bd67d1a84b9caafde286f8582, type: 3}
+  m_Name: FrictionModel_ContactMaterial_DoosanDL300FrontTireMaterial_DoosanDL300RearTireMaterial
+  m_EditorClassIdentifier: 
+  m_solveType: 3
+  m_type: 0
+  m_normalForceMagnitude: 100
+  m_scaleNormalForceWithDepth: 0
+--- !u!114 &-6537394070886725975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7119a14bd67d1a84b9caafde286f8582, type: 3}
+  m_Name: FrictionModel_ContactMaterial_Unknown Material_DoosanDL300BucketMaterial
+  m_EditorClassIdentifier: 
+  m_solveType: 3
+  m_type: 0
+  m_normalForceMagnitude: 100
+  m_scaleNormalForceWithDepth: 0
+--- !u!114 &-6431818953478951431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7119a14bd67d1a84b9caafde286f8582, type: 3}
+  m_Name: FrictionModel_ContactMaterial_DoosanDL300BucketMaterial_DoosanDL300RearTireMaterial
+  m_EditorClassIdentifier: 
+  m_solveType: 3
+  m_type: 0
+  m_normalForceMagnitude: 100
+  m_scaleNormalForceWithDepth: 0
+--- !u!114 &-5744368173422903775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7119a14bd67d1a84b9caafde286f8582, type: 3}
+  m_Name: FrictionModel_ContactMaterial_Unknown Material_DoosanDL300FrontTireMaterial
+  m_EditorClassIdentifier: 
+  m_solveType: 3
+  m_type: 0
+  m_normalForceMagnitude: 100
+  m_scaleNormalForceWithDepth: 0
+--- !u!114 &-5066777806522452906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7119a14bd67d1a84b9caafde286f8582, type: 3}
+  m_Name: FrictionModel_ContactMaterial_WheelLoaderBucketMaterial_WheelLoaderBucketMaterial
+  m_EditorClassIdentifier: 
+  m_solveType: 3
+  m_type: 0
+  m_normalForceMagnitude: 100
+  m_scaleNormalForceWithDepth: 0
+--- !u!114 &-1692712375964778975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7119a14bd67d1a84b9caafde286f8582, type: 3}
+  m_Name: FrictionModel_ContactMaterial_Unknown Material_WheelLoaderBucketMaterial
+  m_EditorClassIdentifier: 
+  m_solveType: 3
+  m_type: 0
+  m_normalForceMagnitude: 100
+  m_scaleNormalForceWithDepth: 0
+--- !u!114 &974838912452359703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7119a14bd67d1a84b9caafde286f8582, type: 3}
+  m_Name: FrictionModel_ContactMaterial_DoosanDL300BucketMaterial_DoosanDL300FrontTireMaterial
+  m_EditorClassIdentifier: 
+  m_solveType: 3
+  m_type: 0
+  m_normalForceMagnitude: 100
+  m_scaleNormalForceWithDepth: 0
+--- !u!114 &1474825298524737626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7119a14bd67d1a84b9caafde286f8582, type: 3}
+  m_Name: FrictionModel_ContactMaterial_Unknown Material_Unknown Material
+  m_EditorClassIdentifier: 
+  m_solveType: 3
+  m_type: 0
+  m_normalForceMagnitude: 100
+  m_scaleNormalForceWithDepth: 0
+--- !u!114 &4542867662009475392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d2135dc92f817349a5e8f6ac3477155, type: 3}
+  m_Name: wheel_loader_DL300_FrictionModel
+  m_EditorClassIdentifier: 
+  m_type: 2
+--- !u!114 &5113962955785764753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7119a14bd67d1a84b9caafde286f8582, type: 3}
+  m_Name: FrictionModel_ContactMaterial_Unknown Material_DoosanDL300RearTireMaterial
+  m_EditorClassIdentifier: 
+  m_solveType: 3
+  m_type: 0
+  m_normalForceMagnitude: 100
+  m_scaleNormalForceWithDepth: 0
+--- !u!114 &5718345190186119781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7119a14bd67d1a84b9caafde286f8582, type: 3}
+  m_Name: FrictionModel_ContactMaterial_DoosanDL300BucketMaterial_DoosanDL300BucketMaterial
+  m_EditorClassIdentifier: 
+  m_solveType: 3
+  m_type: 0
+  m_normalForceMagnitude: 100
+  m_scaleNormalForceWithDepth: 0
+--- !u!114 &7047786975257132724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7119a14bd67d1a84b9caafde286f8582, type: 3}
+  m_Name: FrictionModel_ContactMaterial_WheelLoaderBucketMaterial_DoosanDL300RearTireMaterial
+  m_EditorClassIdentifier: 
+  m_solveType: 3
+  m_type: 0
+  m_normalForceMagnitude: 100
+  m_scaleNormalForceWithDepth: 0
+--- !u!114 &7470569250602429735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7119a14bd67d1a84b9caafde286f8582, type: 3}
+  m_Name: FrictionModel_ContactMaterial_WheelLoaderBucketMaterial_DoosanDL300BucketMaterial
+  m_EditorClassIdentifier: 
+  m_solveType: 3
+  m_type: 0
+  m_normalForceMagnitude: 100
+  m_scaleNormalForceWithDepth: 0
+--- !u!114 &8069266867332395349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7119a14bd67d1a84b9caafde286f8582, type: 3}
+  m_Name: FrictionModel_ContactMaterial_WheelLoaderBucketMaterial_DoosanDL300FrontTireMaterial
+  m_EditorClassIdentifier: 
+  m_solveType: 3
+  m_type: 0
+  m_normalForceMagnitude: 100
+  m_scaleNormalForceWithDepth: 0
