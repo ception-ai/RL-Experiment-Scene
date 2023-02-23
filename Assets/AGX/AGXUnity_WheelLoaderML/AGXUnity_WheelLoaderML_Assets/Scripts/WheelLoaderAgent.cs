@@ -81,8 +81,8 @@ namespace ML.Scripts
             IsDisabled = false;
             // Load wheel loader and components on it.
             WheelLoaderGameObject = Instantiate(WheelLoaderResource);
-            WheelLoaderGameObject.transform.position = new Vector3(40.0f, 0.07f, 1.79f);
-            WheelLoaderGameObject.transform.rotation = Quaternion.Euler(-90, 0, 0);
+            WheelLoaderGameObject.transform.position = new Vector3(30.0f, 0.07f, 25f);
+            WheelLoaderGameObject.transform.rotation = Quaternion.Euler(-90, 90, 0);
             WheelLoader = WheelLoaderGameObject.AddComponent<AGXUnity.Model.WheelLoader>().GetInitialized<AGXUnity.Model.WheelLoader>();
             ShovelComponent();
 
@@ -110,7 +110,7 @@ namespace ML.Scripts
 
             Debug.Assert(bucket.GetComponent<AGXUnity.RigidBody>() != null);
             shovel = bucket.GetComponent<AGXUnity.Model.DeformableTerrainShovel>() == null ?
-            bucket.GetComponent<AGXUnity.Model.DeformableTerrainShovel>() :
+            bucket.AddComponent<AGXUnity.Model.DeformableTerrainShovel>() :
             bucket.GetComponent<AGXUnity.Model.DeformableTerrainShovel>();
 
             ShovelConfiguration();
