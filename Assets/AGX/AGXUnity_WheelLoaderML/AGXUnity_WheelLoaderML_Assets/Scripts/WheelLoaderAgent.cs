@@ -113,10 +113,12 @@ namespace ML.Scripts
             bucket.AddComponent<AGXUnity.Model.DeformableTerrainShovel>() :
             bucket.GetComponent<AGXUnity.Model.DeformableTerrainShovel>();
 
-            ShovelConfiguration();
+            ShovelMeshConfiguration();
+
+            Terrain.activeTerrain.GetComponent<AGXUnity.Model.DeformableTerrain>().Add(shovel);
         }
 
-        private void ShovelConfiguration()
+        private void ShovelMeshConfiguration()
         {
             GameObject bucket_tiremesh = bucket.transform.Find("Bucket_Trimesh").gameObject;
             GameObject bucket4_tiremesh = bucket.transform.Find("Bucket4_Trimesh").gameObject;
@@ -139,7 +141,6 @@ namespace ML.Scripts
             shovel.CuttingDirection.Start.LocalPosition = new Vector3(0.5f, -5f, -2.3f);
             shovel.CuttingDirection.Start.LocalRotation = Quaternion.Euler(356.5f, 123f, 40.7f);
 
-            Terrain.activeTerrain.GetComponent<AGXUnity.Model.DeformableTerrain>().Add(shovel);
         }
 
         public override void CollectObservations(VectorSensor sensor)
@@ -182,7 +183,7 @@ namespace ML.Scripts
                 return;
             }
 
-            float steer = 0.2f * Math.Clamp(vectorAction[1], -1.0f, 1.0f);
+            float steer = 0.1f * Math.Clamp(vectorAction[1], -1.0f, 1.0f);
             float throttle = Math.Clamp(vectorAction[0], 0.0f, 1.0f);
             float elevate = Math.Clamp(vectorAction[2], -1.0f, 1.0f);
             float tilt = Math.Clamp(vectorAction[3], -1.0f, 1.0f);
