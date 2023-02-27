@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 [RequireComponent(typeof(MeshFilter))]
@@ -130,8 +129,12 @@ public class HeightMap : MonoBehaviour
     {
         if (GameObject.Find("wheel_loader_DL300(Clone)") != null)
         {
-            player.transform.position = GameObject.Find("wheel_loader_DL300(Clone)").transform.Find("FrontBody").position + offset;
-            player.transform.position += new Vector3(0,20,0);
+            GameObject frontBody = GameObject.Find("wheel_loader_DL300(Clone)").transform.Find("FrontBody").gameObject;
+            
+            player.transform.position = frontBody.transform.position + offset;
+            player.transform.rotation = frontBody.transform.rotation;
+
+            player.transform.position += new Vector3(0,terrain.GetComponent<AGXUnity.Model.DeformableTerrain>().MaximumDepth,0);
         }
     }
 }

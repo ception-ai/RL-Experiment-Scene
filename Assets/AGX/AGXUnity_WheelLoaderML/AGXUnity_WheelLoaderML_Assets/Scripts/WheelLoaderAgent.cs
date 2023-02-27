@@ -61,6 +61,7 @@ namespace ML.Scripts
             m_wayPointsIndex += 1;
         }
 
+
         private void ResetEnvironment()
         {
             if (WheelLoaderGameObject != null)
@@ -147,7 +148,9 @@ namespace ML.Scripts
         {
             if (IsDisabled)
             {
-                for (int i = 0; i < 9; i++)
+                int sensorLimitation = 8;
+
+                for (int i = 0; i < sensorLimitation; i++)
                 {
                     sensor.AddObservation(0.0f);
                 }
@@ -167,9 +170,12 @@ namespace ML.Scripts
             sensor.AddObservation(WheelLoader.Speed);
 
             // Wheel loader actuator observations
-            sensor.AddObservation((float)WheelLoader.SteeringHinge.Native.asHinge().getAngle());
-            sensor.AddObservation((float)WheelLoader.SteeringHinge.Native.asHinge().getCurrentSpeed());
+            // sensor.AddObservation((float)WheelLoader.SteeringHinge.Native.asHinge().getAngle());
+            // sensor.AddObservation((float)WheelLoader.SteeringHinge.Native.asHinge().getCurrentSpeed());
             sensor.AddObservation((float)WheelLoader.Engine.getRPM());
+
+            // wheel loader bucket current total weight
+            sensor.AddObservation((float)Terrain.activeTerrain.GetComponent<AGXUnity.Model.DeformableTerrain>().Native.getDynamicMass(shovel.Native));
         }
 
         public override void OnActionReceived(float[] vectorAction)
@@ -229,7 +235,7 @@ namespace ML.Scripts
             }
 
             actionsOut[0] = WheelLoaderInput.Throttle;
-            actionsOut[1] = -1.0f * WheelLoaderInput.Steer;
+            // actionsOut[1] = -1.0f * WheelLoaderInput.Steer;
         }
 
         protected override void OnDisable()
@@ -411,7 +417,7 @@ namespace ML.Scripts
 
         private void SetControlSignals(float steer, float throttle, float brake)
         {
-            SetSpeed(WheelLoader.SteeringHinge, steer);
+            // SetSpeed(WheelLoader.SteeringHinge, steer);
 
             var speed = WheelLoader.Speed;
             var idleSpeed = 0.05f;
