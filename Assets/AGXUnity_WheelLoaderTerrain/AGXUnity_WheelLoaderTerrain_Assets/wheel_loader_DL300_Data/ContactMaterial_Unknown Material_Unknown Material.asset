@@ -1,0 +1,415 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6639880145743180641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa76d302d537f3643a58c6cab77fb092, type: 3}
+  m_Name: ContactMaterial_DoosanDL300FrontTireMaterial_DoosanDL300BucketMaterial
+  m_EditorClassIdentifier: 
+  m_material1: {fileID: 5272295369406762097, guid: 84545ae90444fb9419806977a413d61f,
+    type: 2}
+  m_material2: {fileID: 3737368626528011437, guid: 84545ae90444fb9419806977a413d61f,
+    type: 2}
+  m_frictionModel: {fileID: 6207855414175375557, guid: b8090e5887f3d054e9045d07a32815fe,
+    type: 2}
+  m_youngsModulus: 2e+11
+  m_surfaceViscosity: {x: 0.00000001, y: 0.00000001}
+  m_frictionCoefficients: {x: 0.15, y: 0.15}
+  m_restitution: 0.2
+  m_damping: 0.075
+  m_adhesiveForce: 0
+  m_adhesiveOverlap: 0
+  m_useContactArea: 1
+  m_contactReductionMode: 1
+  m_contactReductionLevel: 2
+--- !u!114 &-4848490180724711633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa76d302d537f3643a58c6cab77fb092, type: 3}
+  m_Name: ContactMaterial_Unknown Material_DoosanDL300RearTireMaterial
+  m_EditorClassIdentifier: 
+  m_material1: {fileID: 11400000, guid: 84545ae90444fb9419806977a413d61f, type: 2}
+  m_material2: {fileID: -6519213223415777424, guid: 84545ae90444fb9419806977a413d61f,
+    type: 2}
+  m_frictionModel: {fileID: -4325673173591807678, guid: b8090e5887f3d054e9045d07a32815fe,
+    type: 2}
+  m_youngsModulus: 2e+11
+  m_surfaceViscosity: {x: 0.00000001, y: 0.00000001}
+  m_frictionCoefficients: {x: 0.15, y: 0.15}
+  m_restitution: 0.2
+  m_damping: 0.075
+  m_adhesiveForce: 0
+  m_adhesiveOverlap: 0
+  m_useContactArea: 1
+  m_contactReductionMode: 1
+  m_contactReductionLevel: 2
+--- !u!114 &-2357778292152778259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa76d302d537f3643a58c6cab77fb092, type: 3}
+  m_Name: ContactMaterial_Unknown Material_WheelLoaderBucketMaterial
+  m_EditorClassIdentifier: 
+  m_material1: {fileID: 11400000, guid: 84545ae90444fb9419806977a413d61f, type: 2}
+  m_material2: {fileID: -3602897654244803008, guid: 84545ae90444fb9419806977a413d61f,
+    type: 2}
+  m_frictionModel: {fileID: -2794129750968358475, guid: b8090e5887f3d054e9045d07a32815fe,
+    type: 2}
+  m_youngsModulus: 2e+11
+  m_surfaceViscosity: {x: 0.00000001, y: 0.00000001}
+  m_frictionCoefficients: {x: 0.15, y: 0.15}
+  m_restitution: 0.2
+  m_damping: 0.075
+  m_adhesiveForce: 0
+  m_adhesiveOverlap: 0
+  m_useContactArea: 1
+  m_contactReductionMode: 1
+  m_contactReductionLevel: 2
+--- !u!114 &-2034351977476897499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa76d302d537f3643a58c6cab77fb092, type: 3}
+  m_Name: ContactMaterial_Unknown Material_DoosanDL300FrontTireMaterial
+  m_EditorClassIdentifier: 
+  m_material1: {fileID: 11400000, guid: 84545ae90444fb9419806977a413d61f, type: 2}
+  m_material2: {fileID: 3737368626528011437, guid: 84545ae90444fb9419806977a413d61f,
+    type: 2}
+  m_frictionModel: {fileID: 1574445892868793491, guid: b8090e5887f3d054e9045d07a32815fe,
+    type: 2}
+  m_youngsModulus: 2e+11
+  m_surfaceViscosity: {x: 0.00000001, y: 0.00000001}
+  m_frictionCoefficients: {x: 0.15, y: 0.15}
+  m_restitution: 0.2
+  m_damping: 0.075
+  m_adhesiveForce: 0
+  m_adhesiveOverlap: 0
+  m_useContactArea: 1
+  m_contactReductionMode: 1
+  m_contactReductionLevel: 2
+--- !u!114 &-1165452605419327552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa76d302d537f3643a58c6cab77fb092, type: 3}
+  m_Name: ContactMaterial_WheelLoaderBucketMaterial_WheelLoaderBucketMaterial
+  m_EditorClassIdentifier: 
+  m_material1: {fileID: -3602897654244803008, guid: 84545ae90444fb9419806977a413d61f,
+    type: 2}
+  m_material2: {fileID: -3602897654244803008, guid: 84545ae90444fb9419806977a413d61f,
+    type: 2}
+  m_frictionModel: {fileID: -7944324224823798071, guid: b8090e5887f3d054e9045d07a32815fe,
+    type: 2}
+  m_youngsModulus: 2e+11
+  m_surfaceViscosity: {x: 0.00000001, y: 0.00000001}
+  m_frictionCoefficients: {x: 0.15, y: 0.15}
+  m_restitution: 0.2
+  m_damping: 0.075
+  m_adhesiveForce: 0
+  m_adhesiveOverlap: 0
+  m_useContactArea: 1
+  m_contactReductionMode: 1
+  m_contactReductionLevel: 2
+--- !u!114 &-313856457731923101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa76d302d537f3643a58c6cab77fb092, type: 3}
+  m_Name: ContactMaterial_Unknown Material_DoosanDL300BucketMaterial
+  m_EditorClassIdentifier: 
+  m_material1: {fileID: 11400000, guid: 84545ae90444fb9419806977a413d61f, type: 2}
+  m_material2: {fileID: 5272295369406762097, guid: 84545ae90444fb9419806977a413d61f,
+    type: 2}
+  m_frictionModel: {fileID: 7688348071887250963, guid: b8090e5887f3d054e9045d07a32815fe,
+    type: 2}
+  m_youngsModulus: 2e+11
+  m_surfaceViscosity: {x: 0.00000001, y: 0.00000001}
+  m_frictionCoefficients: {x: 0.15, y: 0.15}
+  m_restitution: 0.2
+  m_damping: 0.075
+  m_adhesiveForce: 0
+  m_adhesiveOverlap: 0
+  m_useContactArea: 1
+  m_contactReductionMode: 1
+  m_contactReductionLevel: 2
+--- !u!114 &-175047082117406263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa76d302d537f3643a58c6cab77fb092, type: 3}
+  m_Name: ContactMaterial_DoosanDL300RearTireMaterial_DoosanDL300RearTireMaterial
+  m_EditorClassIdentifier: 
+  m_material1: {fileID: -6519213223415777424, guid: 84545ae90444fb9419806977a413d61f,
+    type: 2}
+  m_material2: {fileID: -6519213223415777424, guid: 84545ae90444fb9419806977a413d61f,
+    type: 2}
+  m_frictionModel: {fileID: -7173231163239329138, guid: b8090e5887f3d054e9045d07a32815fe,
+    type: 2}
+  m_youngsModulus: 2e+11
+  m_surfaceViscosity: {x: 0.00000001, y: 0.00000001}
+  m_frictionCoefficients: {x: 0.15, y: 0.15}
+  m_restitution: 0.2
+  m_damping: 0.075
+  m_adhesiveForce: 0
+  m_adhesiveOverlap: 0
+  m_useContactArea: 1
+  m_contactReductionMode: 1
+  m_contactReductionLevel: 2
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa76d302d537f3643a58c6cab77fb092, type: 3}
+  m_Name: ContactMaterial_Unknown Material_Unknown Material
+  m_EditorClassIdentifier: 
+  m_material1: {fileID: 11400000, guid: 84545ae90444fb9419806977a413d61f, type: 2}
+  m_material2: {fileID: 11400000, guid: 84545ae90444fb9419806977a413d61f, type: 2}
+  m_frictionModel: {fileID: 11400000, guid: b8090e5887f3d054e9045d07a32815fe, type: 2}
+  m_youngsModulus: 2e+11
+  m_surfaceViscosity: {x: 0.00000001, y: 0.00000001}
+  m_frictionCoefficients: {x: 0.15, y: 0.15}
+  m_restitution: 0.2
+  m_damping: 0.075
+  m_adhesiveForce: 0
+  m_adhesiveOverlap: 0
+  m_useContactArea: 1
+  m_contactReductionMode: 1
+  m_contactReductionLevel: 2
+--- !u!114 &3631243868731245816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa76d302d537f3643a58c6cab77fb092, type: 3}
+  m_Name: ContactMaterial_DoosanDL300BucketMaterial_DoosanDL300BucketMaterial
+  m_EditorClassIdentifier: 
+  m_material1: {fileID: 5272295369406762097, guid: 84545ae90444fb9419806977a413d61f,
+    type: 2}
+  m_material2: {fileID: 5272295369406762097, guid: 84545ae90444fb9419806977a413d61f,
+    type: 2}
+  m_frictionModel: {fileID: -4158412766004592943, guid: b8090e5887f3d054e9045d07a32815fe,
+    type: 2}
+  m_youngsModulus: 2e+11
+  m_surfaceViscosity: {x: 0.00000001, y: 0.00000001}
+  m_frictionCoefficients: {x: 0.15, y: 0.15}
+  m_restitution: 0.2
+  m_damping: 0.075
+  m_adhesiveForce: 0
+  m_adhesiveOverlap: 0
+  m_useContactArea: 1
+  m_contactReductionMode: 1
+  m_contactReductionLevel: 2
+--- !u!114 &4550869968457557192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa76d302d537f3643a58c6cab77fb092, type: 3}
+  m_Name: ContactMaterial_DoosanDL300FrontTireMaterial_DoosanDL300FrontTireMaterial
+  m_EditorClassIdentifier: 
+  m_material1: {fileID: 3737368626528011437, guid: 84545ae90444fb9419806977a413d61f,
+    type: 2}
+  m_material2: {fileID: 3737368626528011437, guid: 84545ae90444fb9419806977a413d61f,
+    type: 2}
+  m_frictionModel: {fileID: 7877773120912958094, guid: b8090e5887f3d054e9045d07a32815fe,
+    type: 2}
+  m_youngsModulus: 2e+11
+  m_surfaceViscosity: {x: 0.00000001, y: 0.00000001}
+  m_frictionCoefficients: {x: 0.15, y: 0.15}
+  m_restitution: 0.2
+  m_damping: 0.075
+  m_adhesiveForce: 0
+  m_adhesiveOverlap: 0
+  m_useContactArea: 1
+  m_contactReductionMode: 1
+  m_contactReductionLevel: 2
+--- !u!114 &4738028307398852721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa76d302d537f3643a58c6cab77fb092, type: 3}
+  m_Name: ContactMaterial_DoosanDL300RearTireMaterial_DoosanDL300BucketMaterial
+  m_EditorClassIdentifier: 
+  m_material1: {fileID: 5272295369406762097, guid: 84545ae90444fb9419806977a413d61f,
+    type: 2}
+  m_material2: {fileID: -6519213223415777424, guid: 84545ae90444fb9419806977a413d61f,
+    type: 2}
+  m_frictionModel: {fileID: -6830285202858083554, guid: b8090e5887f3d054e9045d07a32815fe,
+    type: 2}
+  m_youngsModulus: 2e+11
+  m_surfaceViscosity: {x: 0.00000001, y: 0.00000001}
+  m_frictionCoefficients: {x: 0.15, y: 0.15}
+  m_restitution: 0.2
+  m_damping: 0.075
+  m_adhesiveForce: 0
+  m_adhesiveOverlap: 0
+  m_useContactArea: 1
+  m_contactReductionMode: 1
+  m_contactReductionLevel: 2
+--- !u!114 &5114359554713289638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa76d302d537f3643a58c6cab77fb092, type: 3}
+  m_Name: ContactMaterial_WheelLoaderBucketMaterial_DoosanDL300RearTireMaterial
+  m_EditorClassIdentifier: 
+  m_material1: {fileID: -3602897654244803008, guid: 84545ae90444fb9419806977a413d61f,
+    type: 2}
+  m_material2: {fileID: -6519213223415777424, guid: 84545ae90444fb9419806977a413d61f,
+    type: 2}
+  m_frictionModel: {fileID: 3623961927123800817, guid: b8090e5887f3d054e9045d07a32815fe,
+    type: 2}
+  m_youngsModulus: 2e+11
+  m_surfaceViscosity: {x: 0.00000001, y: 0.00000001}
+  m_frictionCoefficients: {x: 0.15, y: 0.15}
+  m_restitution: 0.2
+  m_damping: 0.075
+  m_adhesiveForce: 0
+  m_adhesiveOverlap: 0
+  m_useContactArea: 1
+  m_contactReductionMode: 1
+  m_contactReductionLevel: 2
+--- !u!114 &6082329392032060471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa76d302d537f3643a58c6cab77fb092, type: 3}
+  m_Name: ContactMaterial_DoosanDL300FrontTireMaterial_DoosanDL300RearTireMaterial
+  m_EditorClassIdentifier: 
+  m_material1: {fileID: 3737368626528011437, guid: 84545ae90444fb9419806977a413d61f,
+    type: 2}
+  m_material2: {fileID: -6519213223415777424, guid: 84545ae90444fb9419806977a413d61f,
+    type: 2}
+  m_frictionModel: {fileID: 2434403241961143937, guid: b8090e5887f3d054e9045d07a32815fe,
+    type: 2}
+  m_youngsModulus: 2e+11
+  m_surfaceViscosity: {x: 0.00000001, y: 0.00000001}
+  m_frictionCoefficients: {x: 0.15, y: 0.15}
+  m_restitution: 0.2
+  m_damping: 0.075
+  m_adhesiveForce: 0
+  m_adhesiveOverlap: 0
+  m_useContactArea: 1
+  m_contactReductionMode: 1
+  m_contactReductionLevel: 2
+--- !u!114 &6395212404526735855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa76d302d537f3643a58c6cab77fb092, type: 3}
+  m_Name: ContactMaterial_WheelLoaderBucketMaterial_DoosanDL300FrontTireMaterial
+  m_EditorClassIdentifier: 
+  m_material1: {fileID: -3602897654244803008, guid: 84545ae90444fb9419806977a413d61f,
+    type: 2}
+  m_material2: {fileID: 3737368626528011437, guid: 84545ae90444fb9419806977a413d61f,
+    type: 2}
+  m_frictionModel: {fileID: -5556515775895689404, guid: b8090e5887f3d054e9045d07a32815fe,
+    type: 2}
+  m_youngsModulus: 2e+11
+  m_surfaceViscosity: {x: 0.00000001, y: 0.00000001}
+  m_frictionCoefficients: {x: 0.15, y: 0.15}
+  m_restitution: 0.2
+  m_damping: 0.075
+  m_adhesiveForce: 0
+  m_adhesiveOverlap: 0
+  m_useContactArea: 1
+  m_contactReductionMode: 1
+  m_contactReductionLevel: 2
+--- !u!114 &6594873795621068999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa76d302d537f3643a58c6cab77fb092, type: 3}
+  m_Name: ContactMaterial_WheelLoaderBucketMaterial_DoosanDL300BucketMaterial
+  m_EditorClassIdentifier: 
+  m_material1: {fileID: -3602897654244803008, guid: 84545ae90444fb9419806977a413d61f,
+    type: 2}
+  m_material2: {fileID: 5272295369406762097, guid: 84545ae90444fb9419806977a413d61f,
+    type: 2}
+  m_frictionModel: {fileID: -8060584070220851700, guid: b8090e5887f3d054e9045d07a32815fe,
+    type: 2}
+  m_youngsModulus: 2e+11
+  m_surfaceViscosity: {x: 0.00000001, y: 0.00000001}
+  m_frictionCoefficients: {x: 0.15, y: 0.15}
+  m_restitution: 0.2
+  m_damping: 0.075
+  m_adhesiveForce: 0
+  m_adhesiveOverlap: 0
+  m_useContactArea: 1
+  m_contactReductionMode: 1
+  m_contactReductionLevel: 2
