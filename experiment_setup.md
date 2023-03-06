@@ -72,7 +72,7 @@ Python API Setup:
 4. Change your directory to ml agents repo (cd C:\path\to\ml_agents_repo).
 5. use pip to install ml_agents ,ml_agents_envs and numpy
 (pip install -e ./ml-agents && pip install -e ./ml-agents-envs && pip install numpy==1.18.5).
-6. Install cuda tool kit "conda install -c anaconda cudatoolkit=11.2".
+6. Install cuda tool kit "conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0".
 
 # --------------------------------------------------------------------------------------------------
 
