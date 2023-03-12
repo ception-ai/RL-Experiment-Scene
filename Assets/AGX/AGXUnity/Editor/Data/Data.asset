@@ -37,32 +37,8 @@ MonoBehaviour:
     m_vector3: {x: 0, y: 0, z: 0}
     m_vector4: {x: 0, y: 0, z: 0, w: 0}
     m_color: {r: 0, g: 0, b: 0, a: 0}
-  - m_key: 618472431
-    m_instanceId: 2147483647
-    m_isStatic: 1
-    m_bool: 0
-    m_int: 0
-    m_float: 0
-    m_string: Assets
-    m_asset: {fileID: 0}
-    m_vector2: {x: 0, y: 0}
-    m_vector3: {x: 0, y: 0, z: 0}
-    m_vector4: {x: 0, y: 0, z: 0, w: 0}
-    m_color: {r: 0, g: 0, b: 0, a: 0}
-  - m_key: 2528035199
-    m_instanceId: 2147483647
-    m_isStatic: 1
-    m_bool: 1
-    m_int: 0
-    m_float: 0
-    m_string: 
-    m_asset: {fileID: 0}
-    m_vector2: {x: 0, y: 0}
-    m_vector3: {x: 0, y: 0, z: 0}
-    m_vector4: {x: 0, y: 0, z: 0, w: 0}
-    m_color: {r: 0, g: 0, b: 0, a: 0}
-  - m_key: 2847835885
-    m_instanceId: 31404
+  - m_key: 5540559
+    m_instanceId: -18932
     m_isStatic: 0
     m_bool: 0
     m_int: 0
@@ -73,8 +49,8 @@ MonoBehaviour:
     m_vector3: {x: 0, y: 0, z: 0}
     m_vector4: {x: 0, y: 0, z: 0, w: 0}
     m_color: {r: 0, g: 0, b: 0, a: 0}
-  - m_key: 2709158096
-    m_instanceId: 31404
+  - m_key: 920328482
+    m_instanceId: -18932
     m_isStatic: 0
     m_bool: 0
     m_int: 0
@@ -85,8 +61,8 @@ MonoBehaviour:
     m_vector3: {x: 0, y: 0, z: 0}
     m_vector4: {x: 0, y: 0, z: 0, w: 0}
     m_color: {r: 0, g: 0, b: 0, a: 0}
-  - m_key: 1736376617
-    m_instanceId: 31404
+  - m_key: 2142024343
+    m_instanceId: -18932
     m_isStatic: 0
     m_bool: 0
     m_int: 0
@@ -97,8 +73,8 @@ MonoBehaviour:
     m_vector3: {x: 0, y: 0, z: 0}
     m_vector4: {x: 0, y: 0, z: 0, w: 0}
     m_color: {r: 0, g: 0, b: 0, a: 0}
-  - m_key: 2932966768
-    m_instanceId: 31404
+  - m_key: 1050387906
+    m_instanceId: -18932
     m_isStatic: 0
     m_bool: 0
     m_int: 0
@@ -109,52 +85,4 @@ MonoBehaviour:
     m_vector3: {x: 0, y: 0, z: 0}
     m_vector4: {x: 0, y: 0, z: 0, w: 0}
     m_color: {r: 0, g: 0, b: 0, a: 0}
-  - m_key: 2439907999
-    m_instanceId: 31442
-    m_isStatic: 0
-    m_bool: 0
-    m_int: 0
-    m_float: 0
-    m_string: 
-    m_asset: {fileID: 0}
-    m_vector2: {x: 0, y: 0}
-    m_vector3: {x: 0, y: 0, z: 0}
-    m_vector4: {x: 0, y: 0, z: 0, w: 0}
-    m_color: {r: 0, g: 0, b: 0, a: 0}
-  - m_key: 2206244082
-    m_instanceId: 31442
-    m_isStatic: 0
-    m_bool: 0
-    m_int: 0
-    m_float: 0
-    m_string: 
-    m_asset: {fileID: 0}
-    m_vector2: {x: 0, y: 0}
-    m_vector3: {x: 0, y: 0, z: 0}
-    m_vector4: {x: 0, y: 0, z: 0, w: 0}
-    m_color: {r: 0, g: 0, b: 0, a: 0}
-  - m_key: 2107387559
-    m_instanceId: 31442
-    m_isStatic: 0
-    m_bool: 0
-    m_int: 0
-    m_float: 0
-    m_string: 
-    m_asset: {fileID: 0}
-    m_vector2: {x: 0, y: 0}
-    m_vector3: {x: 0, y: 0, z: 0}
-    m_vector4: {x: 0, y: 0, z: 0, w: 0}
-    m_color: {r: 0, g: 0, b: 0, a: 0}
-  - m_key: 1808035026
-    m_instanceId: 31442
-    m_isStatic: 0
-    m_bool: 0
-    m_int: 0
-    m_float: 0
-    m_string: 
-    m_asset: {fileID: 0}
-    m_vector2: {x: 0, y: 0}
-    m_vector3: {x: 0, y: 0, z: 0}
-    m_vector4: {x: 0, y: 0, z: 0, w: 0}
-    m_color: {r: 0, g: 0, b: 0, a: 0}
-  m_lastGC: 2343.7156449
+  m_lastGC: 2533.308899
