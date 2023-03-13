@@ -65,7 +65,7 @@ __*Notes*__
 ### Python API Setup:
 1. Install manually mlagents release 6 from 
 "https://github.com/Unity-Technologies/ml-agents/blob/release_6_docs/docs/Installation.md".
-* Inside the Command Prompt
+__*Inside the Command Prompt*__
 2. Creating dedicated conda enviroment (inside The cmd type "conda create --name 'your-venv-name' python=3.6").
 3. Activate conda new enviroment (conda activate "your-venv-name" or using conda prompt).
 4. Change your directory to ml agents repo (cd C:\path\to\ml_agents_repo).
