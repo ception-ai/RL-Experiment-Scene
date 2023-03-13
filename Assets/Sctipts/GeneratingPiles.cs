@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using UnityEngine;
 
 public class GeneratingPiles : MonoBehaviour
@@ -7,8 +6,8 @@ public class GeneratingPiles : MonoBehaviour
     private float xSize, zSize;
     public int pileResolution = 10;
     public int piles = 5;
-    public float depth = 5f;
-    public int scale = 2;
+    private float depth = 5f;
+    private int scale = 2;
 
 
     void Start()
@@ -26,19 +25,17 @@ public class GeneratingPiles : MonoBehaviour
         int resolution = terrain.terrainData.heightmapResolution;
 
         // setting initial terrain shape
-        terrain.terrainData.SetHeights(0, 0, new float[resolution, resolution]);
         terrain.terrainData.size = new Vector3(xSize, depth, zSize);
+        terrain.terrainData.SetHeights(0, 0, new float[resolution, resolution]);
 
         // creating random terrain piles
         for (int i = 0; i < piles; i++)
         {
-            terrain.terrainData.SetHeights((int)Random.Range(0f, resolution - pileResolution), (int)Random.Range(0f, resolution - pileResolution), getHeights());
+            terrain.terrainData.SetHeights((int)Random.Range(0f, resolution - pileResolution), (int)Random.Range(0f, resolution - pileResolution), generatePile());
         }
-
     }
 
-
-    private float[,] getHeights()
+    private float[,] generatePile()
     {
 
         float[,] heights = new float[pileResolution, pileResolution];
@@ -54,8 +51,6 @@ public class GeneratingPiles : MonoBehaviour
 
         return heights;
     }
-
-
 
     float GetHeightWorldCoords(int x, int z)
     {
