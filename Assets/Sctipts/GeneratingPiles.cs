@@ -26,6 +26,7 @@ public class GeneratingPiles : MonoBehaviour
 
         // setting initial terrain shape
         terrain.terrainData.size = new Vector3(xSize, depth, zSize);
+        terrain.GetComponent<AGXUnity.Model.DeformableTerrain>().MaximumDepth = 0;
         terrain.terrainData.SetHeights(0, 0, new float[resolution, resolution]);
 
         // creating random terrain piles
