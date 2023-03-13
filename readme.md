@@ -1,5 +1,7 @@
 # General Information
 
+*** Main Developers: Saar Boniel, Yuval Steinberg ***
+
 - Windows 11 OS
 - Untiy Engine Version 2021.03.17f
 - Anaconda3 latest version
