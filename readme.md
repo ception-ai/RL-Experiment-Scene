@@ -66,12 +66,12 @@ __*Notes*__
 1. Install manually mlagents release 6 from 
 "https://github.com/Unity-Technologies/ml-agents/blob/release_6_docs/docs/Installation.md".
 __*Inside the Command Prompt*__
-2. Creating dedicated conda enviroment (inside The cmd type "conda create --name 'your-venv-name' python=3.6").
+2. Creating dedicated conda enviroment (conda create --name 'your-venv-name' python=3.6).
 3. Activate conda new enviroment (conda activate "your-venv-name" or using conda prompt).
 4. Change your directory to ml agents repo (cd C:\path\to\ml_agents_repo).
 5. use pip to install ml_agents ,ml_agents_envs and numpy
 (pip install -e ./ml-agents && pip install -e ./ml-agents-envs && pip install numpy==1.18.5).
-6. Install cuda tool kit "conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0".
+6. Install cuda tool kit (conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0).
 
 
 ## Possible Issues And Solutions
