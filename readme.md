@@ -6,8 +6,6 @@
 - Python API version 3.6.x
 - ML Agents Release 6
 
-==================================================================================================
-
 ## Setting Unity Packages
 
 __*Window -> Package Manager*__
@@ -23,7 +21,6 @@ Search it by name inside the unity registery and you should find it.
   2. Import the package to unity (Assets -> Import Package -> Custom Package, and choose the AGX package).
   3. Insert your AGX lisence inside the lisences manager (AGXUnity -> Lisence -> Lisence Manager)
 
-***--------------------------------------------------------------------------------------------------***
 
 ## Setting Unity Height Map
 
@@ -49,7 +46,6 @@ Search it by name inside the unity registery and you should find it.
 9. Customise your Gradient so it would have unique colors in each height.
 10. Make sure to choose appropriate offset.
 
-***--------------------------------------------------------------------------------------------------***
 
 ## Setting ML-Agents Python API
 
@@ -75,7 +71,6 @@ __*Notes*__
 (pip install -e ./ml-agents && pip install -e ./ml-agents-envs && pip install numpy==1.18.5).
 6. Install cuda tool kit "conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0".
 
-***--------------------------------------------------------------------------------------------------***
 
 ## Possible Issues And Solutions
 
